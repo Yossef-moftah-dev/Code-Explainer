@@ -96,7 +96,6 @@ CodeExplainer/
 ├── requirements.txt            # Dependencies
 ├── setup.sh                    # Automated setup
 ├── README.md                   # GitHub README
-├── test_example.py             # Testing
 ```
 
 ## 🆘 Troubleshooting
@@ -132,4 +131,5 @@ Topics covered:
 
 ⭐ If you find this helpful, please star the repository!
 
+# Code-Explainer
 # Code-Explainer
