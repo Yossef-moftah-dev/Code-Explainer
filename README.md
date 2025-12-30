@@ -26,7 +26,7 @@ A **beginner-friendly AI-powered service** that explains C++ code.
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/yourusername/CodeExplainer.git
+git clone https://github.com/Yossef-moftah-dev/Code-Explainer
 cd CodeExplainer
 
 # 2. Run setup script
@@ -130,7 +130,3 @@ Topics covered:
 **Built with ❤️ for C++ learners everywhere**
 
 ⭐ If you find this helpful, please star the repository!
-
-# Code-Explainer
-# Code-Explainer
-# Code-Explainer
