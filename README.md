@@ -110,7 +110,7 @@ CodeExplainer/
 3. Restart app
 
 ### Port 7860 in use
-Edit `src/main.py` line 60:
+Edit `src/main.py`:
 ```python
 app.launch(server_port=7861)  # Change port
 ```

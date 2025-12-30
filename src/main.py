@@ -15,20 +15,17 @@ try:
     processor = CodeProcessor()
 except ValueError as e:
     print(f"Configuration Error: {e}")
-    print("Please ensure .env file is properly configured with HF_API_TOKEN")
+    print("Please ensure .env file is properly configured with API_TOKEN")
     sys.exit(1)
 
 
 def explain_code_pipeline(code_input):
-    """
-    Orchestrates the flow: Input -> Sanitize -> Prompt -> Inference -> Format -> Output
+    # Orchestrates the flow: Input -> Sanitize -> Prompt -> Inference -> Format -> Output
+    # Args:
+    #     code_input (str): Raw C++ code from user
+    # Returns:
+    #     str: Beginner-friendly explanation of the code
 
-    Args:
-        code_input (str): Raw C++ code from user
-
-    Returns:
-        str: Beginner-friendly explanation of the code
-    """
     # 1. Validation
     sanitized_code = processor.sanitize_input(code_input)
     if not sanitized_code:
@@ -50,7 +47,7 @@ def explain_code_pipeline(code_input):
 with gr.Blocks(title="C++ CodeExplainer", theme=gr.themes.Soft()) as app:
     gr.Markdown("# C++ CodeExplainer")
     gr.Markdown(
-        "Paste your C++ code below to get a **simple, beginner-friendly explanation** (max 100 words)."
+        "Paste your C++ code below to get a **simple, beginner-friendly explanation**."
     )
 
     with gr.Row():
