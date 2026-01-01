@@ -34,6 +34,7 @@ cd Code-Explainer
 chmod +x setup.sh
 ./setup.sh
 ```
+
 ### Windows
 ```powershell
 # 1. Clone repository
