@@ -24,6 +24,7 @@ A **beginner-friendly AI-powered service** that explains C++ code.
 
 ## Install & Deploy
 
+### linux
 ```bash
 # 1. Clone repository
 git clone https://github.com/Yossef-moftah-dev/Code-Explainer
@@ -33,7 +34,15 @@ cd Code-Explainer
 chmod +x setup.sh
 ./setup.sh
 ```
+### Windows
+```powershell
+# 1. Clone repository
+git clone https://github.com/Yossef-moftah-dev/Code-Explainer
+cd Code-Explainer
 
+# 2. Run setup script
+./setup.sh
+```
 
 ## 🏗️ Architecture
 
